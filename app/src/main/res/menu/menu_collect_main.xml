@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".CollectMain">
+
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/icmenu"
+        android:showAsAction="never" />
+
+    <menu>
+        <item
+            android:id="@+id/menu"
+            android:title="@string/menu_collect_main">
+            <menu>
+                <item
+                    android:id="@+id/collections"
+                    android:title="Collections" />
+
+                </menu>
+        </item>
+
+
+
+
+    </menu>
+</menu>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Collection</string>
+
+    <string name="menu_collect_main">Main Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="enterCollection">Enter Collection</string>
+    <string name="navigate">Navigate</string>
+    <string name="route">Route Data</string>
+    <string name="nav">Navigate</string>
+</resources>
