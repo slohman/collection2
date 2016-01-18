@@ -16,6 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".postCollect"
+            android:label="Post Collection to System"
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+
+        <activity
+            android:name=".filemaintmain"
+            android:label="File Maint"
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+
     </application>
 
 </manifest>
