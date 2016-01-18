@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import org.apache.http.impl.client.DefaultHttpClient;
 
@@ -44,7 +45,7 @@ public class postCollect extends Activity {
         Button mPickDate = (Button) findViewById(R.id.btnChangeDate);
         Button post = (Button)findViewById(R.id.postcollection);
         EditText sid = (EditText)findViewById(R.id.siteID);
-        EditText driverid = (EditText)findViewById(R.id.driverID);
+        Spinner driverid = (Spinner)findViewById(R.id.driverID);
 
 
         mPickDate.setOnClickListener(new View.OnClickListener() {
