@@ -3,43 +3,53 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".CollectMain">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".CollectMain"
+    android:background="#6e3e3e">
 
-    <Button
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/enterCollection"
-        android:id="@+id/buttonCollect"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="76dp"
-        android:textColor="@android:color/black"
-        android:textSize="18dp"
-        android:textStyle="bold" />
-
-    <Button
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/nav"
-        android:id="@+id/buttonNavigate"
-        android:layout_marginTop="58dp"
-        android:textStyle="bold"
-        android:textSize="18dp"
-        android:layout_below="@+id/buttonCollect"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Data"
-        android:id="@+id/btnData"
-        android:textColor="@android:color/black"
-        android:textStyle="bold"
-        android:textSize="18dp"
-        android:layout_centerVertical="true"
+        android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enterCollection"
+            android:id="@+id/buttonCollect"
+            android:layout_alignParentTop="true"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_weight="0.30" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/file"
+            android:id="@+id/btnData"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.27" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nav"
+            android:id="@+id/buttonNavigate"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_below="@+id/buttonCollect"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.27" />
+
+    </LinearLayout>
 
 </RelativeLayout>

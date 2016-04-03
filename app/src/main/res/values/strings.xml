@@ -7,6 +7,7 @@
     <string name="navigate">Navigate</string>
     <string name="route">Route Data</string>
     <string name="nav">Navigate</string>
+    <string name="file">Update Data File</string>
 
     <string name="lblSiteID">Site ID #</string>
     <string name="lbllbscollected">Pounds Collected</string>
@@ -16,4 +17,7 @@
     <string name="setdriverID">Set Driver ID</string>
     <string name="setDate">Set Date</string>
     <string name="installMainDB">Install/Update Database</string>
+    <string name="lbldriverID">Driver ID     </string>
+    <string name="lblpounds">Pounds Collected  </string>
+    <string name="lbldate">Date Collected</string>
 </resources>
