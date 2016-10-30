@@ -95,5 +95,3 @@
                 android:id="@+id/spinner" />
         </LinearLayout>
     </LinearLayout>
-
-</LinearLayout>
